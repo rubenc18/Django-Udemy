@@ -4,7 +4,9 @@
 <hr/>
 <br/>
 
+{% if form %}
 <form method="POST" action="">{% csrf_token %}
 {{ el_form.as_p }}
 <input type='submit' value='Registrame' />
 </form>
+{% endif %}
