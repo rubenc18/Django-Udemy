@@ -1,4 +1,8 @@
-<h1>Bienvenidos</h1>
+<!--<h1>Bienvenidos</h1> -->
+{{ titulo }}<br/>
+{{ request.user }}
+<hr/>
+<br/>
 
 <form method="POST" action="">{% csrf_token %}
 {{ el_form.as_p }}
