@@ -6,6 +6,6 @@ from .forms import RegForm
 def inicio(request):
 	form = RegForm()
 	context = {
-		"form": form,
+		"el_form": form,
 	}
 	return render(request, "inicio.html", context)
