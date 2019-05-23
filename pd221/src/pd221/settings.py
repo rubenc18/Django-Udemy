@@ -33,10 +33,10 @@ EMAIL_HOST_PASSWORD = 'tupassword'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
-···
-Para usar gmail hay que desbloquear captcha
-https://acounts.google.com/displayunlockcaptcha
-···
+...
+#Para usar gmail hay que desbloquear captcha
+#https://acounts.google.com/displayunlockcaptcha
+...
 
 
 # Application definition
@@ -130,3 +130,13 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_URL = '/media/'
+
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static_pro", "static"),
+    #'/var/www/static/',
+]
+
+STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static_env", "static_root")
+MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static_env", "media_root")
