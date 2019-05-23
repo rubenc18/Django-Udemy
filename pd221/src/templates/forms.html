@@ -1,4 +1,3 @@
-<!--<h1>Bienvenidos</h1> -->
 {{ titulo }}<br/>
 {{ request.user }}
 <hr/>
@@ -6,6 +5,6 @@
 
 
 <form method="POST" action="">{% csrf_token %}
-{{ el_form.as_p }}
+{{ form.as_p }}
 <input type='submit' value='Registrame' />
 </form>
