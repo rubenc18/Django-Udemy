@@ -1,11 +1,24 @@
-<!--<h1>Bienvenidos</h1> -->
+{% extends "base.html" %}
+
+{% block head_title %}Bienvenidos | {% endblock %}
+
+{% block jumbotron_content %}
+ <h1>INICIO!!</h1>
+    <p class="lead">This example is a quick exercise to illustrate how the top-aligned navbar works. As you scroll, this navbar remains in its original position and moves with the rest of the page.</p>
+    <a class="btn btn-lg btn-primary" href="/docs/4.3/components/navbar/" role="button">View navbar docs &raquo;</a>
+
+
+{% endblock %}
+
+
 {{ titulo }}<br/>
 {{ request.user }}
 <hr/>
 <br/>
 
-
+{% block contend %}
 <form method="POST" action="">{% csrf_token %}
 {{ el_form.as_p }}
 <input type='submit' value='Registrame' />
 </form>
+{% endblock %}
