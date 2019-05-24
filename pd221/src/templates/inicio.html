@@ -4,11 +4,16 @@
 {% block head_title %}Bienvenidos | {% endblock %}
 
 {% block jumbotron_content %}
- <h1>INICIO!!</h1>
-    <p class="lead">This example is a quick exercise to illustrate how the top-aligned navbar works. As you scroll, this navbar remains in its original position and moves with the rest of the page.</p>
-    <a class="btn btn-lg btn-primary" href="/docs/4.3/components/navbar/" role="button">View navbar docs &raquo;</a>
-
-
+<div class='row'>
+	<div class='col-sm-6'>
+  <h1>Probar Django 2.2.1</h1>
+        <p>Un proyecto para principiantes. El objetivo es construir una página web simple a la par que elegante en muy poco tiempo.</p>
+        <p>
+          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">Únete &raquo;</a>
+        </p>
+</div>
+<div class='col-sm-6' style='background-color:black;height:300px;'></div>
+</div>   
 {% endblock %}
 
 
@@ -17,10 +22,26 @@
 <hr/>
 <br/>
 
-{% block contend %}
+{% block content %}
+<div class="row">
+	<div class="col-sm-3 col-xs-12 pull-right">
+		<p class='lead'>Bienvenidos</p>
 <form method="POST" action="">{% csrf_token %}
 {{ el_form|crispy }}
 <input type='submit' value='Registrame' />
 </form>
+</div>
+<div class='col-sm-3'>
+	<p class='lead'>Creado con Django &amp; Bootstrap</p>
+</div>
+<div class='col-sm-3'>
+	<p class='lead'>Con mucho esfuerzo</p>
+</div>
+<div class='col-sm-3'>
+	<p class='lead'>Y por supuesto, código abierto.</p>
+</div>
+</div>
+
+
 <hr/>
 {% endblock %}
