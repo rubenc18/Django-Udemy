@@ -25,20 +25,20 @@
 {% block content %}
 <div class="row">
 	<div class="col-sm-3 col-xs-12 pull-right">
-		<p class='lead'>Bienvenidos</p>
+		<p class='lead text-align-center'>Bienvenidos</p>
 <form method="POST" action="">{% csrf_token %}
 {{ el_form|crispy }}
 <input type='submit' value='Registrame' />
 </form>
 </div>
 <div class='col-sm-3'>
-	<p class='lead'>Creado con Django &amp; Bootstrap</p>
+	<p class='lead text-align-center'>Creado con Django &amp; Bootstrap</p>
 </div>
 <div class='col-sm-3'>
-	<p class='lead'>Con mucho esfuerzo</p>
+	<p class='lead text-align-center'>Con mucho esfuerzo</p>
 </div>
 <div class='col-sm-3'>
-	<p class='lead'>Y por supuesto, código abierto.</p>
+	<p class='lead text-align-center'>Y por supuesto, código abierto.</p>
 </div>
 </div>
 

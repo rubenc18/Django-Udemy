@@ -5,7 +5,7 @@
 		[
 			[
 				"d",
-				"django"
+				"div\tTag"
 			],
 			[
 				"cl",
@@ -35,54 +35,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "src/templates/head_css.html",
-			"settings":
-			{
-				"buffer_size": 705,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/templates/inicio.html",
-			"settings":
-			{
-				"buffer_size": 721,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/boletin/views.py",
-			"settings":
-			{
-				"buffer_size": 1686,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "<!doctype html>\n{% load static %}\n\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <meta name=\"description\" content=\"\">\n    <meta name=\"author\" content=\"Mark Otto, Jacob Thornton, and Bootstrap contributors\">\n    <meta name=\"generator\" content=\"Jekyll v3.8.5\">\n    <title>{% block head_title %}{% endblock %}PD 221</title>\n\n    <link rel=\"canonical\" href=\"https://getbootstrap.com/docs/4.3/examples/navbar-static/\">\n{% include \"head_css.html\" %}\n\n  </head>\n  <body>\n\n{% include \"navbar.html\" %}\n\n   \n\n<main role=\"main\" class=\"container\">\n{% block jumbotron %}\n  <div class=\"jumbotron\">\n{% block jumbotron_content %}\n   \n{% endblock %}\n  </div>\n{% endblock %}\n\n{% block content %}\n{% endblock %}\n</main>\n<script src=\"https://code.jquery.com/jquery-3.3.1.slim.min.js\" integrity=\"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo\" crossorigin=\"anonymous\"></script>\n      <script>window.jQuery || document.write('<script src=\"/docs/4.3/assets/js/vendor/jquery-slim.min.js\"><\\/script>')</script>\n      <script src=\"/docs/4.3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o\" crossorigin=\"anonymous\"></script>\n    </body>\n</html>",
-			"file": "src/templates/base.html",
-			"file_size": 1352,
-			"file_write_time": 132030877060373178,
-			"settings":
-			{
-				"buffer_size": 1312,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "<!-- Static navbar -->\n<nav class=\"navbar navbar-expand-md navbar-dark bg-dark mb-4\">\n  <a class=\"navbar-brand\" href=\"#\">PROBAR DJANGO</a>\n  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarCollapse\" aria-controls=\"navbarCollapse\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n    <span class=\"navbar-toggler-icon\"></span>\n  </button>\n  <div class=\"collapse navbar-collapse\" id=\"navbarCollapse\">\n    <ul class=\"navbar-nav mr-auto\">\n      <li class=\"nav-item active\">\n        <a class=\"nav-link\" href=\"#\">Home <span class=\"sr-only\">(current)</span></a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" href=\"#\">Link</a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link disabled\" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\">Disabled</a>\n      </li>\n    </ul>\n    <form class=\"form-inline mt-2 mt-md-0\">\n      <input class=\"form-control mr-sm-2\" type=\"text\" placeholder=\"Search\" aria-label=\"Search\">\n      <button class=\"btn btn-outline-success my-2 my-sm-0\" type=\"submit\">Search</button>\n    </form>\n  </div>\n</nav>",
-			"file": "src/templates/navbar.html",
-			"file_size": 1121,
-			"file_write_time": 132030846810741205,
-			"settings":
-			{
-				"buffer_size": 1097,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -123,19 +75,25 @@
 		"/C/Users/Ruben-w10/Desktop/Django-Udemy/pd221/src/static_pro",
 		"/C/Users/Ruben-w10/Desktop/Django-Udemy/pd221/src/static_pro/static",
 		"/C/Users/Ruben-w10/Desktop/Django-Udemy/pd221/src/static_pro/static/css",
-		"/C/Users/Ruben-w10/Desktop/Django-Udemy/pd221/src/templates"
+		"/C/Users/Ruben-w10/Desktop/Django-Udemy/pd221/src/static_pro/static/js",
+		"/C/Users/Ruben-w10/Desktop/Django-Udemy/pd221/src/templates",
+		"/C/Users/Ruben-w10/Desktop/Django-Udemy/pd221/static_env",
+		"/C/Users/Ruben-w10/Desktop/Django-Udemy/pd221/static_env/static_root",
+		"/C/Users/Ruben-w10/Desktop/Django-Udemy/pd221/static_env/static_root/css"
 	],
 	"file_history":
 	[
-		"/C/Users/Ruben-w10/Desktop/Django-Udemy/pd221/src/pd221/urls.py",
-		"/C/Users/Ruben-w10/Desktop/Django-Udemy/pd221/src/boletin/views.py",
 		"/C/Users/Ruben-w10/Desktop/Django-Udemy/pd221/src/templates/navbar.html",
+		"/C/Users/Ruben-w10/Desktop/Django-Udemy/pd221/src/templates/inicio.html",
+		"/C/Users/Ruben-w10/Desktop/Django-Udemy/pd221/src/templates/head_css.html",
+		"/C/Users/Ruben-w10/Desktop/Django-Udemy/pd221/src/templates/javascript.html",
 		"/C/Users/Ruben-w10/Desktop/Django-Udemy/pd221/src/templates/base.html",
+		"/C/Users/Ruben-w10/Desktop/Django-Udemy/pd221/src/boletin/views.py",
+		"/C/Users/Ruben-w10/Desktop/Django-Udemy/pd221/src/pd221/urls.py",
 		"/C/Users/Ruben-w10/Desktop/Django-Udemy/pd221/src/pd221/settings.py",
 		"/C/Users/Ruben-w10/Desktop/Django-Udemy/pd221/src/templates/forms.html",
 		"/C/Users/Ruben-w10/Desktop/Django-Udemy/pd221/src/boletin/admin.py",
 		"/C/Users/Ruben-w10/Desktop/Django-Udemy/pd221/src/boletin/forms.py",
-		"/C/Users/Ruben-w10/Desktop/Django-Udemy/pd221/src/templates/inicio.html",
 		"/C/Users/Ruben-w10/Desktop/Django-Udemy/pd221/src/boletin/models.py",
 		"/C/Users/Ruben-w10/Desktop/pd221/src/pd221/settings.py",
 		"/C/Users/Ruben-w10/Desktop/pd221/src/pd221/urls.py",
@@ -178,156 +136,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "src/templates/head_css.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 705,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								17,
-								17
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/templates/inicio.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 721,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								109,
-								109
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/boletin/views.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1686,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 540.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/templates/base.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1312,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "src/templates/navbar.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1097,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								23,
-								23
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
