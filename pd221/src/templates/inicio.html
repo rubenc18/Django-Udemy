@@ -3,9 +3,18 @@
 
 {% block head_title %}Bienvenidos | {% endblock %}
 
+<style>
+{% block style %}
+.jumbotron {
+	background-color: #172548 !important;
+	color: white !important;
+}
+{% endblock %}
+</style>
+
 {% block jumbotron %}
 <div class="jumbotron">
-
+<div class="container">
 <div class='row'>
 	<div class='col-sm-6'>
   <h1>Probar Django 2.2.1</h1>
@@ -16,6 +25,7 @@
 </div>
 <div class='col-sm-6' style='background-color:black;height:300px;'></div>
 </div>   
+</div>
 </div>
 {% endblock %}
 
