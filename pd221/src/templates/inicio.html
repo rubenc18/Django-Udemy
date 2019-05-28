@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load crispy_forms_tags %}
+{% load static %}
 
 {% block head_title %}Bienvenidos | {% endblock %}
 
@@ -8,6 +9,10 @@
 .jumbotron {
 	background-color: #172548 !important;
 	color: white !important;
+}
+
+.fa-5x {
+	font-size: 6em;
 }
 {% endblock %}
 </style>
@@ -45,13 +50,18 @@
 </form>
 </div>
 <div class='col-sm-3'>
-	<p class='lead text-align-center'>Creado con Django &amp; Bootstrap</p>
+	<p class='lead text-align-center'>Creado con Django &amp; Bootstrap.<br/><br/><span class="fa-stack fa-5x">
+		<i class="fa fa-circle-o-notch fa-stack-2k"></i>
+		<i class="fa fa-nullhorn fa-stack-1x"></i></i></p></span>
 </div>
 <div class='col-sm-3'>
-	<p class='lead text-align-center'>Con mucho esfuerzo</p>
+	<p class='lead text-align-center'>Con mucho esfuerzo</p><img src='{% static "img/tejo-arbol-k3sG--620x349@abc" %}'/>
 </div>
 <div class='col-sm-3'>
-	<p class='lead text-align-center'>Y por supuesto, código abierto.</p>
+	<p class='lead text-align-center'>Y por supuesto, código abierto.<br/><br/><span class="fa stack fa-5x">
+	<i class="fa fa-spinner fa-spin fa-stack-2x"></i>
+	<i class="fa fa-font-awesome fa-stack-1x"></i>
+</span></i></p>
 </div>
 </div>
 
