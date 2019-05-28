@@ -28,7 +28,7 @@ urlpatterns = [
     path('contact/', views.contact, name='contact'),
     path('', views.inicio, name='inicio'),
     path('about/', about, name='about'),
-    path('accounts/', include('registration.backends.default.path')),
+    path('accounts/', include('registration.backends.default.urls')),
 ]
 
 if settings.DEBUG:
