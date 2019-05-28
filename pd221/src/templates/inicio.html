@@ -19,7 +19,11 @@
 
 {% block jumbotron %}
 {% if request.user.is_staff %}
-{{ queryset }}
+<table class='table'>
+{% for instance in queryset %}
+<tr><td>{{ forloop.counter }}</td><td><tr><td>{{ instance }}</td><td>{{ instance.nombre }}</td><td>Hace{{ instance.timestamp|timesince }}</td></tr><br/>
+{% endfor %}
+</table>
 {% else %}
 <div class="jumbotron">
 <div class="container">
@@ -35,7 +39,7 @@
 </div>   
 </div>
 </div>
-{% enddif %}
+{% endif %}
 {% endblock %}
 
 
